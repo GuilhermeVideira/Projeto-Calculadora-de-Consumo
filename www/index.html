@@ -7,11 +7,40 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
+       <script src="components/main.js"></script>
     <script>
     </script>
+
+    <style type="text/css">
+        .cinza{
+            background-color: #2b80ff;
+        }
+		.texto01 {font-family: Segoe UI; 
+                color: #ffffff;  
+                font-size: 16px}   
+                </style>
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+
+     <div class="calculator">
+
+     <div class="display" id="display"></div>
+
+    <div class="calculator-buttons">
+	<input type="number" placeholder="Insira a Km percorrida" id="km" step="0.1">
+    <input type="number" placeholder="Insira os litros consumidos" id="litros" step="0.1">
+
+     
+    </div>
+    </div>
+
+ <span class="texto01"> .</span> 
+    <div class="calculator-buttons">
+        <input type="button" value="Calcular" onclick="calcularconsumo()" >
+       </div>
+
+     
+    <p id="resultado"> </p> 
+
 </body>
 </html>
