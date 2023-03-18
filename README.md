@@ -3,6 +3,7 @@
 
 🚌 A proposta da atividade era de desenvolver uma calculadora que calcule o consumo de um automóvel de acordo com a distância e tempo percorrido. Utilizando assim os requisitos de utilizar linguagem de programação JavaScript e também desenvolver essa aplicação no site de desenvolvimento mobile "Monaca". 🚌 
 
+
 🚗 🚕 🚙 🚚 🚛 🚜
 
 #
